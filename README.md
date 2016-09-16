@@ -7,7 +7,7 @@
 
 ## Configuration
 
-Make shure you have a user from the `config/database.yml` file.
+Make sure you have a user from the `config/database.yml` file.
 Run from the project folder:
 
     $ bin/setup
@@ -15,3 +15,27 @@ Run from the project folder:
 ## Running
 
     $ rails server
+
+## About
+
+The idea to try to implement absolute normalized data and see what it gives.
+
+### The Data
+
+List of primitive tables:
+
+* Surnames
+* Names
+* Roles
+* Streets
+* House
+* Cities
+* State
+* Event types
+* Dates
+
+List of composite tables:
+
+* Events
+* Person
+* Address
