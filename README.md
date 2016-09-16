@@ -28,14 +28,14 @@ List of primitive tables:
 * Names
 * Roles
 * Streets
-* House
+* Houses
 * Cities
-* State
+* States
 * Event types
 * Dates
 
 List of composite tables:
 
 * Events
-* Person
+* Persons
 * Address
