@@ -21,5 +21,11 @@ module AbsoluteNormalizationTry
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
+    config.generators do |g|
+      g.javascript_engine :js
+      g.stylesheets false
+      g.javascripts false
+      g.helper false
+    end
   end
 end
