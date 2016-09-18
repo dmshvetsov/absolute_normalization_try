@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Event Dates</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Data</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @event_dates.each do |event_date| %>
+      <tr>
+        <td><%= event_date.data %></td>
+        <td><%= link_to 'Show', event_date %></td>
+        <td><%= link_to 'Edit', edit_event_date_path(event_date) %></td>
+        <td><%= link_to 'Destroy', event_date, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Event Date', new_event_date_path %>

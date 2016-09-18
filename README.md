@@ -32,7 +32,7 @@ List of primitive tables:
 * Cities
 * States
 * Event types
-* Dates
+* Event dates
 
 List of composite tables:
 

@@ -1,0 +1,2 @@
+class Surname < ApplicationRecord
+end

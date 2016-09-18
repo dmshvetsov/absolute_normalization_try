@@ -9,6 +9,17 @@
   </head>
 
   <body>
+    <nav>
+      <%= link_to 'Surnames', surnames_path %>
+      <%= link_to 'Names', names_path %>
+      <%= link_to 'Roles', roles_path %>
+      <%= link_to 'Streets', streets_path %>
+      <%= link_to 'Houses', houses_path %>
+      <%= link_to 'Cities', cities_path %>
+      <%= link_to 'States', states_path %>
+      <%= link_to 'Event Types', event_types_path %>
+      <%= link_to 'Event dates', event_dates_path %>
+    </nav>
     <%= yield %>
   </body>
 </html>
