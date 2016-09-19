@@ -24,4 +24,5 @@ group :development do
   gem 'listen', '~> 3.0.5'
   gem 'better_errors'
   gem 'binding_of_caller'
+  gem 'faker', '1.6.6', require: false
 end
