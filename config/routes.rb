@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  root to: 'dashboard#index'
-  resources :event_dates
+  resources :events
+  resources :people
+  resources :addresses
   resources :event_types
   resources :states
   resources :cities
@@ -9,5 +10,6 @@ Rails.application.routes.draw do
   resources :roles
   resources :names
   resources :surnames
+  root to: 'dashboard#index'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

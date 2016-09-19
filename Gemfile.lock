@@ -53,6 +53,8 @@ GEM
     erubis (2.7.0)
     execjs (2.7.0)
     ffi (1.9.14)
+    formtastic (3.1.4)
+      actionpack (>= 3.2.13)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
     i18n (0.7.0)
@@ -138,6 +140,7 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   byebug
+  formtastic (= 3.1.4)
   listen (~> 3.0.5)
   pg (~> 0.18)
   puma (~> 3.0)
